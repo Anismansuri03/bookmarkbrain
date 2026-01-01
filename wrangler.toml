@@ -1,0 +1,11 @@
+name = "bookmark-api"
+main = "src/index.ts"
+compatibility_date = "2024-12-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "bookmark_brain"
+database_id = "b1feef21-5f97-4282-8515-787668c080a4"
+
+[ai]
+binding = "AI"
