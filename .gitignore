@@ -165,3 +165,20 @@ dist
 .env*
 !.env.example
 .wrangler/
+
+# Ignore backend
+bookmark-api/
+
+# Node
+node_modules/
+.next/
+dist/
+out/
+
+# Env
+.env
+.env.local
+
+# OS
+.DS_Store
+
