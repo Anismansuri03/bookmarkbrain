@@ -8,4 +8,5 @@ CREATE TABLE IF NOT EXISTS bookmarks (
   folders TEXT,
   embedding TEXT,
   created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+  ALTER TABLE bookmarks ADD COLUMN embedding TEXT;
 );
